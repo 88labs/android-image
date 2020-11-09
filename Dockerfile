@@ -1,4 +1,4 @@
-FROM circleci/android:api-29-node
+FROM cimg/android:29.0.0
 
 # Install firebase tools
 RUN sudo curl -sL https://firebase.tools | bash
